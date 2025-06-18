@@ -1,0 +1,12 @@
+[package]
+name = "kqueue"
+version = "1.0.0"
+authors = ["JMA"]
+description = "kqueue interface for BSDs - extended for the Rittimo runtime"
+license = "MIT"
+edition = "2024"
+
+
+[dependencies]
+kqueue-sys = { path = "../kqueue_sys_rittimo" }
+libc = "^0.2.17"
